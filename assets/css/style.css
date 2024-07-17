@@ -81,11 +81,11 @@ nav {
 }
 /* Main content*/
 main {
-    background-color: lightblue;
-    /* make main element take up any surplus space to push footer down */
+   /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
 
 /* Hero section */
 #hero {
@@ -109,6 +109,32 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reason h2 {
+    margin-bottom: 20%;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-metal>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
@@ -161,6 +187,11 @@ nav {
 main {
     /*Push main content down to accomodate larger header */ 
     margin-top: 79px;
+} 
+/* Hero */
+#cover-text {
+    width: 300px;
+    right: 50px;
 }
 
 }
@@ -175,6 +206,8 @@ main {
 
 
 }
+
+
 
 
 
